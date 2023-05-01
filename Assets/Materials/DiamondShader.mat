@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DiamondShader
+  m_Shader: {fileID: -6465566751694194690, guid: ce86dd84f42a82f4b89a3108ae92deac, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 3d3791cead71563478f15f4777b450da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_89c6bc6bc9bb4e4f85cfb69e9e0acec9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7b19e8b1525efa147bb768a096e7c2af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureDiamond:
+        m_Texture: {fileID: 2800000, guid: 7b19e8b1525efa147bb768a096e7c2af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: -0.24
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _Metallic: 0.2
+    - _Opacity: 0.8
+    - _Smoothness: 0.8
+    m_Colors:
+    - _Albedo: {r: 0.8773585, g: 0.062077243, b: 0.062077243, a: 0}
+    - _BaceColor: {r: 0.4493592, g: 0.6301675, b: 0.9622642, a: 1}
+    - _BottomColor: {r: 0.0745372, g: 0.23584908, b: 0.085212246, a: 1}
+    - _ColorBlink: {r: 0.44255075, g: 0.6353652, b: 0.8018868, a: 0}
+    - _ColorLine: {r: 0, g: 0.09262441, b: 0.5660378, a: 0}
+    - _DiamondColor: {r: 0.3160377, g: 0.8314878, b: 1, a: 1}
+    - _TopColor: {r: 0.249644, g: 0.3818085, b: 0.6226415, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &5327851852524300374
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

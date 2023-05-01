@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CrystalShader
+  m_Shader: {fileID: -6465566751694194690, guid: 6374ff19bdfdd9b44a6d9fa46fa02892, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CrystalTexture:
+        m_Texture: {fileID: 2800000, guid: 7424058d0c372e34990584b90ca9f87a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _BottomLine: 0.5
+    - _FresnalPower: 1
+    - _FresnelPower: -0.5
+    - _Metallic: 0.4
+    - _Oacity: 0.9
+    - _Opacity: 0.9
+    - _Smoothness: 0.5
+    - _TopLine: 0.75
+    m_Colors:
+    - _BaseColor: {r: 0.006567351, g: 0.2532378, b: 1.3922751, a: 1}
+    - _BottomColor: {r: 0.06960785, g: 0.10392157, b: 0.11764706, a: 1}
+    - _FresnelColor: {r: 0.36248785, g: 0, b: 0.41509432, a: 0}
+    - _TopColor: {r: 0.35404056, g: 0.5135755, b: 0.6415094, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &6453913826849608747
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
