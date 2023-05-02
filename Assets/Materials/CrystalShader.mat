@@ -31,10 +31,10 @@ Material:
     - _BottomLine: 0.5
     - _FresnalPower: 1
     - _FresnelPower: -0.5
-    - _Metallic: 0.4
+    - _Metallic: 0.2
     - _Oacity: 0.9
     - _Opacity: 0.9
-    - _Smoothness: 0.5
+    - _Smoothness: 0.7
     - _TopLine: 0.75
     m_Colors:
     - _BaseColor: {r: 0.006567351, g: 0.2532378, b: 1.3922751, a: 1}

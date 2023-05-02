@@ -56,14 +56,14 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Metallic: 0.8
+    - _Metallic: 0.3
     - _Opacity: 0.8
-    - _Smoothness: 0.6
+    - _Smoothness: 0.75
     m_Colors:
-    - _BaseColor: {r: 0.39215687, g: 0.015686275, b: 0.03137255, a: 1}
-    - _BottomColor: {r: 0.9254902, g: 0.0627451, b: 0.4627451, a: 1}
+    - _BaseColor: {r: 0.36078432, g: 0, b: 0.015686275, a: 1}
+    - _BottomColor: {r: 0.4627451, g: 0.03137255, b: 0.38235295, a: 1}
     - _TilingTexture: {r: 1, g: 5, b: 0, a: 0}
-    - _TopColor: {r: 0.9882353, g: 0, b: 0, a: 1}
+    - _TopColor: {r: 1.9764706, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &666724651910971864
 MonoBehaviour:

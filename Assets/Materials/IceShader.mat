@@ -29,11 +29,11 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _FresnelPower: 0.5
-    - _Metallic: 0.5
+    - _Metallic: 0.3
     - _Normals: 1.5
     - _Opacity: 0.75
     - _RefractionAmount: 0
-    - _Smoothness: 0.2
+    - _Smoothness: 0.7
     m_Colors:
     - _FresnelColor: {r: 0, g: 0.7511722, b: 0.8962264, a: 1}
     - _IceColor: {r: 0.27807912, g: 0.7286641, b: 1.4378726, a: 1}
